@@ -1,16 +1,8 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="Admin_default" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/fanPage.master" AutoEventWireup="false" CodeFile="default.aspx.vb" Inherits="Admin_default" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+admin page
+</asp:Content>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    This is the admin page
-    </div>
-    </form>
-</body>
-</html>

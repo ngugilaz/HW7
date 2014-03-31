@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" CodeFile="fanPage.master.vb" Inherits="fanPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="fans.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="siteheader">
+            <asp:Image class="siteheader" ID="Image2" runat="server"  ImageUrl="~/siteLogo/ManU.jpg" />
+        </div>
+             <div id="header">
+                 <asp:Image class="header_img" ID="Image1" runat="server" ImageUrl="~/Logo/manutd.jpg" Width="71px" />Header
+             </div>
+             <div id="Menu">
+                 <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
+
+                 </asp:Menu>
+                 <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+             </div>
+                <div id="main">
+
+                  <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                  </asp:ContentPlaceHolder>
+                </div>
+        <div id="footer">
+            Footer
+        </div>
+    </div>
+    </form>
+</body>
+</html>

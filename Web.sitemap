@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="."  description="">
+      
+      
+      
+        <siteMapNode url="~/default.aspx" title="Home"  description="" />
+
+
+      <siteMapNode url="~/admin/default.aspx" title="Admin"  description="">
+
+        <siteMapNode url="~/admin/add.aspx" title="Add Player"  description=""/>
+          <siteMapNode url="~/admin/delete.aspx" title="Edit /Delete Player"  description=""/>
+          
+      </siteMapNode>
+
+      <siteMapNode url="~/fan/default.aspx" title="FanZone"  description="">
+
+        </siteMapNode>
+      
+      <siteMapNode url="~/Search/search.aspx" title="Search"  description="">
+
+           </siteMapNode>
+      
+      <siteMapNode url="~/About/aboutus.aspx" title="About Us"  description="">
+
+      </siteMapNode>
+      
+      <siteMapNode url="~/Contact/contactus.aspx" title="Contact Us"  description="">
+
+      </siteMapNode>
+
+   </siteMapNode>
+  
+  
+</siteMap>

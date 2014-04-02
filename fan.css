@@ -1,0 +1,38 @@
+﻿
+/*div formatting*/
+#container {background:pink;
+            padding:20px;
+            margin:0 auto;
+            border:1px solid black;
+             width:900px;}
+
+
+#header {background:blue;
+         color:white;
+         padding:10px;
+         margin:0 auto;
+         border:1px solid black; }
+#menu {background: orange;
+        color: white;
+         padding: 10px;
+        margin: 0 auto;
+        border-left:1px solid black;
+       border-right:1px solid black;
+        }
+.header_img {float:right;
+             margin:0;
+             border:0;
+             }
+
+#main {background:white;
+       padding:10px;
+       margin:0 auto;
+       border-left:1px solid black;
+       border-right:1px solid black;}
+
+#footer {background:green;
+         padding:10px;
+         margin:0 auto;
+         border:1px solid black;
+         text-align:center;
+}

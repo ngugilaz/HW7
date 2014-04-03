@@ -1,38 +1,30 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="contactus.aspx.vb" Inherits="contactus" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="contactus.aspx.vb" Inherits="Contact_contactus" %>
 
-<!DOCTYPE html>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+        <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
-    <!-- Check to see if you are in postback.  If not, display the contact form. -->
-        <% If Not IsPostBack Then%>
-
-        Your email address:<br />
-        <asp:TextBox ID="senderAddress" runat="server"></asp:TextBox>
+  
+        MU Tickets
+        Sales and ticket enquiries
+        tickets@manutd.co.uk
         <br />
-        <br />
-       
-         Your message:<br /> 
-        <!-- to make your box bigger add rows, columns, and textmode -->
-        <asp:TextBox ID="senderMessage" runat="server" Rows="20" Columns="30" TextMode="MultiLine"></asp:TextBox>
-        
-        <br />
-        <br />
-        <asp:Button ID="sendMail" runat="server" Text="Send" />
+        Match Day Hospitality - Seasonal and Match by Match
 
-        <!-- If you are in postback, display the confirmation label. -->
-        <%Else%>
+        <br />
+        Museum, Stadium Tour & Red Cafe
 
-        <asp:Label ID="confirmSent" runat="server" Text=""></asp:Label>
+         <br />
 
-        <!-- End your 'If' statement. -->
-        <%End If%>
-    </div>
-    </form>
-</body>
-</html>
+        Official Membership
+        Sales and enquiries
+
+         <br />
+        Museum enquiries & feedback
+          <br />
+  	
+        United Events
+        Conference and events enquires
+
+        </asp:Content>
+

@@ -1,5 +1,5 @@
 ﻿
 Partial Class MasterPage
-    Inherits System.Web.UI.MasterPage
-End Class
+    Inherits System.Web.UI.Page
 
+End Class

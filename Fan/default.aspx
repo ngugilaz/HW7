@@ -5,9 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    This is fan website
-
-    login to access our fan website
+  Welcome to Manchester United fan Zone. 
 
 </asp:Content>
 

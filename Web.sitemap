@@ -21,6 +21,9 @@
       <siteMapNode url="~/Search/search.aspx" title="Search"  description="">
 
            </siteMapNode>
+      <siteMapNode url="~/News/default.aspx" title="News"  description="">
+
+      </siteMapNode>
       
       <siteMapNode url="~/About/aboutus.aspx" title="About Us"  description="">
 

@@ -1,28 +1,36 @@
-﻿
+﻿body {
+    background-image:url(./logo/Manchester-United.jpg);
+    
+
+}
+
+
+
 /*div formatting*/
 #container {background:pink;
             padding:20px;
             margin:0 auto;
             border:1px solid black;
-             width:900px;}
+             width:900px;
+             opacity:0.9;
+}
 
 
 #header {background:blue;
-         color:white;
-         padding:10px;
-         margin:0 auto;
-         border:1px solid black; }
+
+}
 #menu {background: orange;
         color: white;
          padding: 10px;
+         
         margin: 0 auto;
         border-left:1px solid black;
        border-right:1px solid black;
         }
-.header_img {float:right;
+/*.header_img {float:right;
              margin:0;
              border:0;
-             }
+             }*/
 
 #main {background:white;
        padding:10px;
@@ -35,4 +43,23 @@
          margin:0 auto;
          border:1px solid black;
          text-align:center;
+}
+
+#picc {
+
+    float: right;
+
+}
+
+
+#words {
+
+    float:left;
+    width:50%;
+    
+         color:white;
+         background:red;
+         padding:10px;
+         margin:0 auto;
+         border:1px solid black;
 }

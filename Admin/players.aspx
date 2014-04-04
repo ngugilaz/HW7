@@ -3,7 +3,22 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="pID" DataSourceID="SqlDataSource1" AllowPaging="True" AllowSorting="True" Width="574px" BackColor="White" BorderColor="#dedfde" RowStyle-BorderColor="#f7f7de">
+        <asp:GridView ID="GridView1" 
+            runat="server" 
+            AutoGenerateColumns="False" 
+            DataKeyNames="pID"
+             DataSourceID="SqlDataSource1"
+             AllowPaging="True"
+             AllowSorting="True" 
+            Width="574px" 
+            BackColor="White" 
+            BorderColor="#dedfde" 
+            RowStyle-BorderColor="#f7f7de"
+            Gridlines="None"
+            cssClass="cssgrindview"
+            AlternatingRowStyle-CssClass="alt"
+            PagerStyle-CssClass="pgr"
+            >
     <Columns>
         <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
         <asp:BoundField DataField="fName" HeaderText="First Name" SortExpression="fName" />

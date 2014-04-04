@@ -15,11 +15,14 @@
           
       </siteMapNode>
 
-      <siteMapNode url="~/fan/player.aspx" title="FanZone"  description="">
+      <siteMapNode url="~/fan/default.aspx" title="FanZone"  description="">
+        
+        <siteMapNode url="~/fan/players.aspx" title="Players"  description=""/>
+        <siteMapNode url="~/fan/details.aspx" title="PlayersDetail"  description=""/>
 
         </siteMapNode>
       
-      <siteMapNode url="~/Search/search.aspx" title="Search"  description="">
+      <siteMapNode url="~/Search/default.aspx" title="Search"  description="">
 
            </siteMapNode>
       <siteMapNode url="~/News/default.aspx" title="News"  description="">

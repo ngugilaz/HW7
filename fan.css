@@ -1,97 +1,190 @@
-﻿body {
-    background-image:url(./logo/Manchester-United.jpg);
+﻿    body {
+        background-image:url(./logo/Manchester-United.jpg);
     
 
-}
+    }
 
-/*div formatting*/
-#container {background:grey;
-            padding:20px;
-            margin:0 auto;
-            border:1px solid black;
-             width:900px;
-             opacity:0.9;
-}
-
-
-#header {background:red;
-
-
-}
-.date {float:right;
-}
-#menu {background: black;
-        color: white;
-         padding: 10px;
-         align-items:center;
-        margin: 0 auto;
-        border-left:1px solid black;
-       border-right:1px solid black;
+    /*div formatting*/
+        #container {background:grey;
+                    padding:20px;
+                    margin:0 auto;
+                    border:1px solid black;
+                     width:900px;
+                     opacity:0.9;
         }
 
-.header_img {float:right;
-             margin:0;
-             border:0;
-             }
 
-#main {background:white;
-       padding:10px;
-       margin:0 auto;
-       border-left:1px solid black;
-       border-right:1px solid black;}
+    #header {background:#eabb3a;
+             padding:10px;
+             margin:0 auto;
+             border:1px solid black;
 
-#footer {background:green;
-         padding:10px;
-         margin:0 auto;
-         border:1px solid black;
-         text-align:center;
+
+    }
+    .date {color:ActiveCaption;
+    }
+        #menu {background:red
+                 ;
+                color: white;
+                 padding: 10px;
+                 align-items:center;
+                margin: 0 auto;
+                border-left:1px solid black;
+               border-right:1px solid black;
+                }
+.level1 {color:white; font-size:large
+}
+.level2 {color:blueviolet;font-size:medium
+}
+.level3 {
 }
 
-#GridView1 {
-    background-color: lightgoldenrodyellow;
-    width: auto;
-    margin: 5px 0 10px 0;
-    border: solid 2px coral;
-    border-collapse: collapse;
-    text-align: center;
-    color: black;
+    .header_img {float:right;
+                 margin:0;
+                 border:0;
+                 }
+
+    #main {background:white;
+           padding:10px;
+           margin:0 auto;
+           border-left:1px solid black;
+           border-right:1px solid black;}
+
+    #footer {background:green;
+             padding:5px;
+             margin:0 auto;
+             border:1px solid black;
+             text-align:center;
+            }
+    #contact {text-align:center
+        }
+.news {text-align:center
 }
 
 
-#GridView1  .row { background-color: white;
+#LoginStatus1 {
+    float:right;
+}
+
+    /* CSS to format a gridview -- START*/
+
+
+    .cssgridview { width:100%; 
+                   margin:5px 0 10px 0;
+                    border:solid 1px #525252; 
+                    border-collapse:collapse; 
+                    text-align:center; 
+                    font-family: "Comic Sans MS";
+                     color: #7C6F57; 
+                     background-color: #F7F6F3}
+
+
+    .cssgridview td { padding:10px;
+                       border:solid 1px #c1c1c1; 
+                       color:#717171; }
+
+    .cssgridview td a, a:visited { color:#717171;
+                                    text-decoration:none; }
+
+
+    .cssgridview th { padding:10px; 
+                      color:#fff; 
+                      background:#424242 url(./images/css/grd_head.png) repeat-x top;
+                       border-left:solid 1px #525252;
+                        font-size:0.9em; }  
+
+    .cssgridview th a { color:silver;
+                         text-decoration:none; }  
+
+    .cssgridview th a:hover { color:white;
+                               background-color:#7C6F57;
+                                text-decoration:underline; }
+
+
+    .cssgridview .alt { background: #fcfcfc url(./images/css/grd_alt.png) repeat-x top;}
+
+
+    .cssgridview .pgr { background: #424242 url(./css/grd_pgr.png) repeat-x top; }  
+
+    .cssgridview .pgr table { margin: 5px 0; }  
+
+    .cssgridview .pgr td { border-width: 0;
+                            padding: 0 6px; 
+                            border-left: solid 1px #666; 
+                            font-weight: bold;
+                             color: #fff; 
+                             line-height: 12px; }     
+
+    .cssgridview .pgr a { color: #666; 
+                          text-decoration: none; }  
+
+    .cssgridview .pgr a:hover { color: #000; 
+                                text-decoration: underline; }
+
+
+    /* CSS to format a gridview -- END*/
+
+
+    /* CSS to format a detailsview --START */
+
+
+    .cssdetailsview { font-family: "Comic Sans MS";
+                       background-color:#fff; 
+                       margin:5px 0 10px 0; 
+                       border:solid 1px #525252;
+                        border-collapse:collapse; 
+                        text-align:center; }
+
+
+    .cssdetailsview td { padding:10px; 
+                         border:solid 1px #c1c1c1; 
+                         color:#717171; 
+                         text-align:left;}
+
+
+    .cssdetailsview .header td { text-align:center;
+                                  padding:4px 2px;
+                                   color:silver;
+                                    background:#424242 url(./css/grd_head.png) repeat-x top;
+                                     border-left:solid 1px #525252; }
+
+
+    .cssdetailsview .fieldheader { color:red;
+                                    width:150px;
+                                     text-align:right;}
+
+
+    .cssdetailsview .altrow { background: #fcfcfc url(./css/grd_alt.png) repeat-x top; }
+
+
+    .cssdetailsview .command {  background: #424242 url(./css/grd_pgr.png) repeat-x top;
+                                 line-height: 20px;}
+
+    .cssdetailsview .command td { text-align:center;}
+
+    .cssdetailsview .command a {color:Silver;
+                                 text-decoration:none; 
+                                 padding:10px; }
+
+    .cssdetailsview .command a:hover {color:Silver; 
+                                      text-decoration:underline; }
+
+
+    .cssdetailsview .pager {}
+
+
+    /* CSS to format a detailsview --END */
+
+
+
+
+    h3 {text-align :center;
     }
 
-#GridView1  .alternate { background-color: coral;
+    h1 {text-align:center;
     }
-
-    #GridView1  td {
-        padding: 10px;
-        border: solid 2px coral;
-        color: black;
+    h2 {
+        text-align: center;
     }
-
-    #GridView1  th {
-        padding: 10px;
-        color: lightgoldenrodyellow;
-        border-left: solid 2px coral;
- }
-
-    #GridView1 { margin-right:auto;
-    margin-left:auto;
-}
-
-#DetailsView1 {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3 {text-align :center;
-}
-
-h1 {text-align:center;
-}
-h2 {
-    text-align: center;
-}
-.news {float:center
+h4 {text-align:center
 }

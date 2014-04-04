@@ -4,7 +4,13 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CS_database %>" SelectCommand="SELECT * FROM [players3] WHERE ([pID] = @pID)" DeleteCommand="DELETE FROM [players3] WHERE [pID] = @pID" InsertCommand="INSERT INTO [players3] ([fName], [lName], [yOB], [pST], [mINS], [aPPS], [Goals]) VALUES (@fName, @lName, @yOB, @pST, @mINS, @aPPS, @Goals)" UpdateCommand="UPDATE [players3] SET [fName] = @fName, [lName] = @lName, [yOB] = @yOB, [pST] = @pST, [mINS] = @mINS, [aPPS] = @aPPS, [Goals] = @Goals WHERE [pID] = @pID">
+    <asp:SqlDataSource ID="SqlDataSource1"
+         runat="server" 
+        ConnectionString="<%$ ConnectionStrings:CS_database %>" 
+        SelectCommand="SELECT * FROM [players3] WHERE ([pID] = @pID)"
+         DeleteCommand="DELETE FROM [players3] WHERE [pID] = @pID" 
+        InsertCommand="INSERT INTO [players3] ([fName], [lName], [yOB], [pST], [mINS], [aPPS], [Goals]) VALUES (@fName, @lName, @yOB, @pST, @mINS, @aPPS, @Goals)" 
+        UpdateCommand="UPDATE [players3] SET [fName] = @fName, [lName] = @lName, [yOB] = @yOB, [pST] = @pST, [mINS] = @mINS, [aPPS] = @aPPS, [Goals] = @Goals WHERE [pID] = @pID">
         <DeleteParameters>
             <asp:Parameter Name="pID" Type="Int32" />
         </DeleteParameters>
@@ -33,7 +39,24 @@
     </asp:SqlDataSource>
 
 
-    <asp:DetailsView ID="DetailsView1" runat="server" Height="110px" Width="298px" AutoGenerateRows="False" DataKeyNames="pID" DataSourceID="SqlDataSource1" DefaultMode="Insert" style="margin-top: 116px">
+    <asp:DetailsView ID="DetailsView1"
+         runat="server" 
+        Height="110px"
+         Width="298px"
+         AutoGenerateRows="False" 
+        DataKeyNames="pID"
+         DataSourceID="SqlDataSource1" 
+        DefaultMode="Insert" 
+        style="margin-top: 116px"
+        HeaderText="Players Details"
+	    CssClass="cssdetailsview"
+             HeaderStyle-CssClass="header"
+              FieldHeaderStyle-CssClass="fieldheader"
+              ItemStyle-CssClass="item"
+                       CommandRowStyle-CssClass="command"
+              PagerStyle-CssClass="pager">
+
+        
         <Fields>
             <asp:BoundField DataField="fName" HeaderText="First Name" SortExpression="fName" />
             <asp:BoundField DataField="lName" HeaderText="Last Name" SortExpression="lName" />

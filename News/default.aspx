@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
 
-    <asp:Image class="news" ID="Image1" runat="server" imageurl="~/News/manchester-united.jpg"/>
+    <asp:Image CssClass="news" ID="Image1" runat="server" imageurl="~/News/manchester-united.jpg"/>
 
      <br />
         For the latest news about Man U, visit the fanzone

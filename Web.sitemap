@@ -9,12 +9,13 @@
 
       <siteMapNode url="~/admin/default.aspx" title="Admin"  description="">
 
-        <siteMapNode url="~/admin/add.aspx" title="Add Player"  description=""/>
-          <siteMapNode url="~/admin/delete.aspx" title="Edit /Delete Player"  description=""/>
+        <siteMapNode url="~/admin/playersdetails.aspx" title="Add Player"  description=""/>
+        
+          <siteMapNode url="~/admin/players.aspx" title="Edit /Delete Player"  description=""/>
           
       </siteMapNode>
 
-      <siteMapNode url="~/fan/default.aspx" title="FanZone"  description="">
+      <siteMapNode url="~/fan/player.aspx" title="FanZone"  description="">
 
         </siteMapNode>
       

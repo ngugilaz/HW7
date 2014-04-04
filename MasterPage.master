@@ -15,18 +15,16 @@
         <div id="container">
 
                 <div id="header">
-                    <div id="words">
-                       <h1>Manchester United Fan Page</h1></div>
+                  
+                       <h1>Manchester United Fan Page</h1></
 
-                    <div id="picc">
-                      <asp:Image CssClass="header_img" 
+                         <asp:Image CssClass="header_img" 
                           ID="Image1" 
                           runat="server"
                            Height="48px"
                            ImageUrl="~/logo/Man U.jpg"
                            Width="72px" />
-                        </div>
-          
+                                 
                  </div>
                     <div id="menu">
               
@@ -47,7 +45,7 @@
                  
                          <asp:LoginStatus ID="LoginStatus1" 
                              runat="server" />
-                        <asp:Label ID="Lbl_date" runat="server" Text="598989"></asp:Label>
+                        <asp:Label class="date" ID="Lbl_date" runat="server" Text="598989"></asp:Label>
                       
                     </div>
 
@@ -57,7 +55,12 @@
         
                              <p>
                                  <br />
+                                 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:CS_database %>" SelectCommand="SELECT * FROM [players3]"></asp:SqlDataSource>
                              </p>
+                             <p>
+                                 &nbsp;</p>
+                             <p>
+                                 &nbsp;</p>
                              <p>
                              </p>
                              <p>

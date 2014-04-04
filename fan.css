@@ -4,10 +4,8 @@
 
 }
 
-
-
 /*div formatting*/
-#container {background:pink;
+#container {background:grey;
             padding:20px;
             margin:0 auto;
             border:1px solid black;
@@ -16,21 +14,25 @@
 }
 
 
-#header {background:blue;
+#header {background:red;
+
 
 }
-#menu {background: orange;
+.date {float:right;
+}
+#menu {background: black;
         color: white;
          padding: 10px;
-         
+         align-items:center;
         margin: 0 auto;
         border-left:1px solid black;
        border-right:1px solid black;
         }
-/*.header_img {float:right;
+
+.header_img {float:right;
              margin:0;
              border:0;
-             }*/
+             }
 
 #main {background:white;
        padding:10px;
@@ -45,21 +47,51 @@
          text-align:center;
 }
 
-#picc {
-
-    float: right;
-
+#GridView1 {
+    background-color: lightgoldenrodyellow;
+    width: auto;
+    margin: 5px 0 10px 0;
+    border: solid 2px coral;
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
 }
 
 
-#words {
+#GridView1  .row { background-color: white;
+    }
 
-    float:left;
-    width:50%;
-    
-         color:white;
-         background:red;
-         padding:10px;
-         margin:0 auto;
-         border:1px solid black;
+#GridView1  .alternate { background-color: coral;
+    }
+
+    #GridView1  td {
+        padding: 10px;
+        border: solid 2px coral;
+        color: black;
+    }
+
+    #GridView1  th {
+        padding: 10px;
+        color: lightgoldenrodyellow;
+        border-left: solid 2px coral;
+ }
+
+    #GridView1 { margin-right:auto;
+    margin-left:auto;
+}
+
+#DetailsView1 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {text-align :center;
+}
+
+h1 {text-align:center;
+}
+h2 {
+    text-align: center;
+}
+.news {float:center
 }
